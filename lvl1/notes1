@@ -1,0 +1,30 @@
+Default prompt for regular user:
+"$"
+
+Default prompt for root user:
+"#"
+
+Example of a default prompt:
+"[jake@pine share] $"
+    - jake = user
+    - pine = computer name
+    - share = /usr/share/ - current working directory
+
+Opening Terminal:
+- Right-click an empty area on [Desktop] (some distros disable this feature)
+- Left-click [Activities] (Left-top corner of Desktop) | Type "terminal", press Enter
+
+Customize Terminal Font/Colors:
+- Terminal Panel Icon or 3 Bar Vertical Icon -> [Preferences]
+- Profiles (under) -> "Unnamed"
+- Text -> Text Appearance
+- Colors -> Text and Background Color / Palette
+
+Virtual Consoles:
+- Ctrl + Alt + F1 = Login (tty1)
+- Ctrl + Alt + F2 = Desktop (tty2)
+- Ctrl + Alt + F3 = Console (tty3)
+- Ctrl + Alt + F4 = Console (tty4)
+- Ctrl + Alt + F5 = Console (tty5)
+- Ctrl + Alt + F6 = Console (tty6)
+- Ctrl + Alt + F7 = Blank (tty7)
