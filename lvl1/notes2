@@ -1,0 +1,43 @@
+'whoami' = print userid (user)
+    $ whoami
+
+'grep' = print lines that match patterns from file/s
+(searches [userid] in file "/etc/passwd"):
+    $ grep [userid] /etc/passwd
+
+'exit' = exits terminal session
+    $ exit
+
+'date' = prints or sets system date and time
+    $ date
+
+'pwd' = prints name of current / working directory
+    $ pwd
+
+'hostname' = shows or sets system's host name
+    $ hostname
+
+'ls' = lists directory contents
+    $ ls
+
+Options: Example (not all commands have options)
+    $ ls -l -a -t (separated)
+    $ ls -lat (together)
+
+    -l = long listing
+    -a = show hidden dot files
+    -t = list by time
+
+    $ ls --help = full word options are preceded by two hyphens
+
+    Arguments (if applicable with option)
+    $ [command] --[option]=[argument]
+    $ ls --hide=Desktop
+
+    $ tar -cvf backup.tar /home/chris
+        - tar = archiving utility
+
+        - Creates
+        - a File or copy of '/home/chris' (includes all directories/files)
+        - w/ Verbose Messages
+        - labeled 'backup.tar' in current working directory.
